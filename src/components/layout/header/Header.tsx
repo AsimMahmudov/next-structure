@@ -6,11 +6,11 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const Header = () => {
 	return (
-		<header className="bg-[#000000] sticky top-0 left-0 w-full border-transparent z-50 border border-b-[#424242] py-3">
+		<header className="bg-[#000000] fixed top-0 left-0 w-full border-transparent z-50 border border-b-[#424242] py-3">
 			<div className="container flex justify-between items-center">
 				<Link href={"/"}>
 					<TitleComponent className="text-white md:text-[24px] text-[22px] ">
-						Asim<span className="text-[blue-500] ">Dev</span>
+						Asim<span className="text-[#0077ff]">Dev</span>
 					</TitleComponent>
 				</Link>
 

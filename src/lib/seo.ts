@@ -45,7 +45,7 @@ export const generateMetadata = ({
 	},
 	// дополнительные мета-теги
 	other: {
-			"theme-color": "#3F0C21",
+			"theme-color": "#000000",
 			"apple-mobile-web-app-capable": "yes",
 			"apple-mobile-web-app-status-bar-style": "black-translucent",
 	}
@@ -57,10 +57,10 @@ export const generateMetadata = ({
 // 	'@context': 'https://schema.org',
 // 	'@type': 'WebSite',
 // 	'name': 'Asim_project', ////! Имя проекта
-// 	'url': 'Домен проекта', ////! Имя проекта
+// 	'url': 'https://next-structure-seven.vercel.app/', ////! url проекта
 // 	'potentialAction': {
 // 			'@type': 'SearchAction',
-// 			'target': 'https://Asim_project/search?q={search_term_string}', ////! Имя проекта
+// 			'target': 'https://next-structure-seven.vercel.app/search?q={search_term_string}', ////! Имя проекта
 // 			'query-input': 'required name=search_term_string'
 // 	}
 // });

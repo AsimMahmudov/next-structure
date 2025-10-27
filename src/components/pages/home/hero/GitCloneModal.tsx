@@ -18,7 +18,7 @@ const GitCloneModal = ({ isOpen, onClose }: GitCloneModalProps) => {
   const modalRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const cloneCommand = `git clone`;
+  const cloneCommand = `https://github.com/AsimMahmudov/next-structure.git`;
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(cloneCommand).then(() => {

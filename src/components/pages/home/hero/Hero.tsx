@@ -23,7 +23,7 @@ const Hero = () => {
 
 				<div className="text-center flex flex-col -mt-[60px] justify-center items-center gap-5 relative z-10 max-w-3xl">
 					<TitleComponent className="!text-4xl md:!text-5xl text-white">
-						Next.js Landing Starter
+						Next.js Structure 
 					</TitleComponent>
 						<Description className="text-gray-400">
 							Современный стек: TypeScript, Tailwind CSS, Next.js 15 — всё для
@@ -32,7 +32,7 @@ const Hero = () => {
 					<Description className="text-gray-400">
 						Просто замените этот текст — и ваш лендинг готов к разработке.
 					</Description>
-					<div className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-[400px]">
+					<div className="flex  flex-row items-center gap-4 w-full max-w-[400px]">
 						<Button
 							className="gap-2 w-full"
 							onClick={() => setIsModalOpen(true)}>
